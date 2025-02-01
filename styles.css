@@ -43,7 +43,8 @@ body {
 
 .product {
     width: 100%;
-    max-width: 37rem;
+    max-width: 40rem;
+    min-width: 18em;
     border-radius: 10px;
     background-color: hsl(0, 0%, 100%);
 }
@@ -76,6 +77,7 @@ body {
     font-family: 'Fraunces', 'serif';
     font-weight: 700;
     font-size: 2rem;
+    color: hsl(212, 21%, 14%);
 }
 
 .product__description {
@@ -134,6 +136,13 @@ footer a {
     color: hsl(228, 45%, 44%)
 }
 
+@media (max-width: 374px) {
+    
+    .product__title {
+        font-size: 1.7rem;
+    }
+  }
+
 @media (min-width: 1024px) {
 
     .product {
@@ -151,10 +160,13 @@ footer a {
     }
 
     .product__details{
-        gap: 17px;
-        padding: 1.8rem;
+        padding: 2.1rem;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+    }
+
+    .product__title {
+        letter-spacing: .025em;
     }
   }
