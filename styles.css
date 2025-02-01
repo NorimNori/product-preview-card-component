@@ -48,7 +48,7 @@ body {
     background-color: hsl(0, 0%, 100%);
 }
 
-.container {
+.product__details {
     gap: 17px;
     padding: 1.5rem;
     display: flex;
@@ -150,7 +150,7 @@ footer a {
         border-bottom-left-radius: 10px;
     }
 
-    .container {
+    .product__details{
         gap: 17px;
         padding: 1.8rem;
         display: flex;
