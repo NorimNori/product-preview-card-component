@@ -43,6 +43,7 @@ body {
 
 .product {
     width: 100%;
+    max-width: 37rem;
     border-radius: 10px;
     background-color: hsl(0, 0%, 100%);
 }
@@ -51,7 +52,6 @@ body {
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
-
 }
 
 .product__image {
