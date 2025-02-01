@@ -41,11 +41,16 @@ These are the screenshots of the implemented solution:
 
 -  **🖥️ Desktop version**
 
-![Desktop](./images/recipe-desktop.png)
+![Desktop](./images/product_desktop.png)
+
+- **👆 Hover**  
+
+![Hover](./images/product_hover.png)
 
 -  **📱 Mobile version**
 
-![Mobile](./images/recipe-mobile.png)
+![Mobile](./images/product_mobile.png)
+
 
 ###  ⛓️ Links
 
