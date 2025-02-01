@@ -4,13 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | Product preview card component</title>
 
 </head>
 <body>
-  <main class="product">
-    <article class="product__card">
-      <picture class="product__image">
+    <article class="product">
+      
+      <picture >
         <source 
         srcset="./images/image-product-desktop.jpg" 
         media="(min-width: 55em)"
@@ -20,34 +21,37 @@
         <img 
         width="686"
         height="480"
+        class="product__image"
         src="./images/image-product-mobile.jpg" 
         alt="Gabrielle Essence Eau De Parfum bottle by CHANEL"
         >
       </picture>
-      
-      <span class="product__category">PERFUME</span>
-      
-      <h1 class="product__title">Gabrielle Essence Eau De Parfum</h1>
-      
-      <p class="product__description">
-        A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.
-      </p>
-      
-      <div class="product__pricing">
-        <span class="product__price">$149.99</span>
-        <del class="product__price--old">$169.99</del>
-      </div>
 
-      <button class="product__button" type="button">
-        <img 
-        src="./images/icon-cart.svg" 
-        alt="" 
-        class="product__button-icon"
-        >
-        Add to Cart
-      </button>
+      <div class="container">
+        <span class="product__category">PERFUME</span>
+        
+        <h1 class="product__title">Gabrielle Essence Eau De Parfum</h1>
+        
+        <p class="product__description">
+          A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.
+        </p>
+        
+        <div class="product__pricing">
+          <span class="product__price">$149.99</span>
+          <del class="product__price--old">$169.99</del>
+        </div>
+  
+        <button class="product__button" type="button">
+          <img 
+          src="./images/icon-cart.svg" 
+          alt="" 
+          class="product__button-icon"
+          >
+          Add to Cart
+        </button>
+      </div>
+      
     </article>
-  </main>
 
   <footer class="footer">
     <p class="footer__text">
