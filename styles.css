@@ -43,7 +43,7 @@ body {
 
 .product {
     width: 100%;
-    max-width: 40rem;
+    max-width: 27.5rem;
     min-width: 18em;
     border-radius: 10px;
     background-color: hsl(0, 0%, 100%);
@@ -157,6 +157,7 @@ footer a {
 
     .product {
         display: grid;
+        max-width: 40rem;
         grid-template-columns: 1fr 1fr;
         width: 100%;
     }
