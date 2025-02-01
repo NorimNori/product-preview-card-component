@@ -118,12 +118,22 @@ body {
     padding: 1.2em .5em;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
     color: hsl(0, 0%, 100%);
     background-color: hsl(158, 36%, 37%);
+    transition: background-color 0.3s ease, color 0.3s ease;
 
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.product__button:hover {
+    background-color: hsl(158, 38%, 18%);
+}
+
+.product__button:active {
+    transform: scale(0.95);
 }
 
 footer {
@@ -137,7 +147,7 @@ footer a {
 }
 
 @media (max-width: 374px) {
-    
+
     .product__title {
         font-size: 1.7rem;
     }
