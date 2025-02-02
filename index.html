@@ -9,17 +9,14 @@
 
 </head>
 <body>
-  <main>
-    <article class="product">
+  <main role="main">
+    <section class="product" aria-labelledby="product-title"">
       <picture >
         <source 
         srcset="./images/image-product-desktop.jpg" 
         media="(min-width: 64em)"
-        width="600"
-        height="900"
         >
         <img 
-
         class="product__image"
         src="./images/image-product-mobile.jpg" 
         alt="Gabrielle Essence Eau De Parfum bottle by CHANEL"
@@ -27,7 +24,7 @@
       </picture>
 
       <div class="product__details">
-        <span class="product__category">PERFUME</span>
+        <span class="product__category" aria-label="Product category">PERFUME</span>
         
         <h1 class="product__title">Gabrielle Essence Eau De Parfum</h1>
         
@@ -35,24 +32,29 @@
           A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.
         </p>
         
-        <div class="product__pricing">
+        <div class="product__pricing" aria-live="polite"
           <span class="product__price">$149.99</span>
           <del class="product__price--old">$169.99</del>
         </div>
   
-        <button class="product__button" type="button">
+        <button 
+        class="product__button" 
+        type="button"
+        aria-label="Add Gabrielle Essence Eau De Parfum to cart"
+        >
           <img 
           src="./images/icon-cart.svg" 
           alt="" 
           class="product__button-icon"
+          aria-hidden="true"
           >
           Add to Cart
         </button>
       </div>
-    </article>
+    </section>
   </main>
 
-  <footer class="footer">
+  <footer class="footer" role="contentinfo">
     <p class="footer__text">
       Challenge by <a class="footer__link" href="https://www.frontendmentor.io?ref=challenge" target="_blank" title="Visit Frontend Mentor">Frontend Mentor</a>. 
       Coded by <a class="footer__link" href="https://www.frontendmentor.io/profile/NorimNori" title="Visit Gloria Rangel's profile">Gloria Rangel</a>.
